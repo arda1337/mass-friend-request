@@ -43,4 +43,4 @@ fs.readFile(filePath, 'utf8', (err, data) => {
   }, 10000);
 });
 
-client.login("MzI0Mjc2OTMyODc3NDg0MDMy.G4SjzW.SzFr8-CkXnb6S2UeRVMBa-BYyoWCCHaWwIgs-k"); 
+client.login("your token lol"); 
