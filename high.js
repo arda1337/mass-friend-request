@@ -20,7 +20,6 @@ fs.readFile(filePath, 'utf8', (err, data) => {
 
   const userIDs = data.split('\n').map((id) => id.trim());
 
-  // Her kullanıcıya arkadaşlık isteği gönderin
   let i = 0;
   const sendFriendRequest = setInterval(() => {
     if (i >= userIDs.length) {
